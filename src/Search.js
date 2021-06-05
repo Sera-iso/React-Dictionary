@@ -5,9 +5,10 @@ import "./Search.css";
 
 export default function Search() {
     let [keyword, setKeyword] = useState("");
+    let [results, setResults] = useState(null);
 
     function handleResponse(response) {
-        console.log(response.data[0]);
+        setResults(response.data[0]);
     }
 
     function handleSearch(event){
@@ -27,7 +28,7 @@ export default function Search() {
             <form onSubmit={handleSearch}>
                 <input type="search" onChange={handleKeyword} />
             </form>
-            <Results />
+            <Results results={results} />
         </div>
     )
 }
