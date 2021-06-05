@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Search from "./Search";
 
 function App() {
   return (
@@ -10,6 +11,9 @@ function App() {
           This will become a pretty Dictionary app built in React
         </p>
       </header>
+      <main>
+        <Search />
+      </main>
       <footer>
         coded by Sera
       </footer>
