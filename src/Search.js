@@ -25,9 +25,11 @@ export default function Search() {
 
     return (
         <div className="Search">
-            <form onSubmit={handleSearch}>
-                <input type="search" onChange={handleKeyword} />
-            </form>
+            <section>
+                <form onSubmit={handleSearch}>
+                    <input type="search" onChange={handleKeyword} />
+                </form>
+            </section>
             <Results results={results} />
         </div>
     )
