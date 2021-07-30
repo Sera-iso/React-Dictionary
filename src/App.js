@@ -5,9 +5,9 @@ function App() {
   return (
     <div className="App">
       <header>
-        <p>
-          This will become a pretty Dictionary app built in React
-        </p>
+        <h1>
+          Dictionary
+        </h1>
       </header>
       <main>
         <Search />

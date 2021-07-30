@@ -1,10 +1,8 @@
 .App {
-  display: block;
-  margin: 0 auto;
   max-width: 800px;
-  text-align: center;
+  margin: 40px;
 }
 
 .App footer {
-  margin: 40px;
+  margin-top: 40px;
 }
