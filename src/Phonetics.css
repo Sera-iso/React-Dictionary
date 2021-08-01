@@ -1,12 +1,13 @@
 .Phonetics {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .Phonetics a {
-    border: 1px solid rgb(206, 186, 216, 0.3);
-    color: rgb(206, 186, 216);
-    font-weight: bold;
-    padding: 6px 10px;
+    border: 1px solid rgb(206, 186, 216, 0.1);
+    border-radius: 16px;
+    background-color:#FBF2FF;
+    color: #451D58;
+    padding: 6px 16px;
     margin: 10px;
     transition: all 120ms ease-in-out;
 }
@@ -14,7 +15,6 @@
 .Phonetics a:hover {
     background-color: #451D58;
     color: #FBF2FF;
-    font-weight: bold;
 }
 
 .Phonetics .text {

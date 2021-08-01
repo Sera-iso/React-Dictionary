@@ -5,8 +5,14 @@
 .App h1 {
   margin: 10px;
   font-size: 26px;
+  font-weight:500;
 }
 
 .App footer {
+  font-size: 14px;
   padding: 10px;
+}
+
+.App a {
+  text-decoration: none;
 }

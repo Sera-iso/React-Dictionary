@@ -13,7 +13,7 @@ function App() {
         <Search />
       </main>
       <footer>
-        coded by Sera
+        coded by <a href="https://github.com/Sera-iso">Sera</a> 
       </footer>
     </div>
   );

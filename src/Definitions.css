@@ -2,10 +2,25 @@
     padding: 10px;
 }
 
-.Definitions p {
-    padding: 10px 0;
+.Definitions h3 {
+    font-weight: 500;
+}
+
+.Definitions .text {
+    padding-top: 10px;
+}
+
+.Definitions .example {
+     font-size: 12px;
+     font-style: italic;
+     padding-bottom: 10px;
+     opacity: 0.5;
 }
 
 .Definitions ul {
-    padding: 0 30px;
+    padding: 0 30px 6px;
+}
+
+.Definitions li {
+    font-size: 12px;
 }
