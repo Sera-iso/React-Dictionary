@@ -39,7 +39,7 @@ export default function Search() {
         <div className="Search">
             <section>
                 <form onSubmit={handleSearch}>
-                    <input type="search" onChange={handleKeyword} />
+                <input class="form-control" type="search" placeholder="Search for a word" onChange={handleKeyword} />
                 </form>
             </section>
             <Results results={results} />
