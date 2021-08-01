@@ -13,7 +13,7 @@ function App() {
         <Search />
       </main>
       <footer>
-        coded by <a href="https://github.com/Sera-iso">Sera</a> 
+        coded by <a href="https://github.com/Sera-iso/React-Dictionary" target="_blank" rel="noreferrer">Sera</a> 
       </footer>
     </div>
   );
