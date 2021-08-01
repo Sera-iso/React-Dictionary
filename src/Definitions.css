@@ -1,0 +1,11 @@
+.Definitions {
+    padding: 10px;
+}
+
+.Definitions p {
+    padding: 10px 0;
+}
+
+.Definitions ul {
+    padding: 0 30px;
+}
