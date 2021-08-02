@@ -13,7 +13,9 @@ function App() {
         <Search />
       </main>
       <footer>
-        coded by <a href="https://github.com/Sera-iso/React-Dictionary" target="_blank" rel="noreferrer">Sera</a> 
+        <p>coded by Sera</p>
+        <span><a href="https://github.com/Sera-iso/React-Dictionary" target="_blank" rel="noreferrer"><i className="fab fa-github"></i></a></span>
+        <span><a href="https://www.instagram.com/codewithsera/" target="_blank" rel="noreferrer"><i className="fab fa-instagram"></i></a></span>
       </footer>
     </div>
   );
