@@ -19,9 +19,12 @@
 
 .App a {
   color: #451D58;
+  text-decoration: none;
+}
+
+.App a i {
   font-size: 22px;
   padding: 10px;
-  text-decoration: none;
 }
 
 .App a:hover {
