@@ -17,3 +17,7 @@
   text-decoration: none;
   color: #451D58;
 }
+
+.App a:hover {
+  font-weight: 600;
+}
