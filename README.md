@@ -1,5 +1,6 @@
 # Dictionary React App
 It's a dictionary built in React. 
+
 To populate the app I use:
 1) Dictionary free API provided by DictionaryAPI. Documentation https://dictionaryapi.dev/  
 2) Images free API provided by Pexels. Documentation https://www.pexels.com/api/documentation/
@@ -13,5 +14,4 @@ You can check it out here ➡️ https://gallant-dubinsky-e70d9d.netlify.app/
 
 
 :rocket: 
-
 Sera-iso
